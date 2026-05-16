@@ -522,6 +522,46 @@
               "version": "0.11.0-arduino2"
             }
           ]
+        },
+        {
+          "name": "NUCODE NU40DK-KIT",
+          "architecture": "nrf52",
+          "version": "0.0.3",
+          "category": "NUCODE_NRF52",
+          "url": "https://chcbaram.github.io/nu40dk-kit-board-index/boards/baram-nu40dk-kit-0.0.3.tar.bz2",
+          "archiveFileName": "baram-nu40dk-kit-0.0.3.tar.bz2",
+          "checksum": "SHA-256:DD47E455792F5DA5DC07047995594D5E0565BCF321DF9254AE627808AA16F0A0",
+          "size": "21132180",
+          "help": {
+            "online": "https://github.com/chcbaram/NU40DK-KIT-ARDUINO"
+          },
+          "boards": [
+            {
+              "name": "NU40DK-KIT"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "adafruit",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "adafruit",
+              "name": "nrfjprog",
+              "version": "9.4.0"
+            },
+            {
+              "packager": "adafruit",
+              "name": "CMSIS",
+              "version": "5.7.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.11.0-arduino2"
+            }
+          ]
         }        
       ]
     }
